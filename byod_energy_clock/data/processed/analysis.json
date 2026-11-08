@@ -1,0 +1,6212 @@
+{
+  "is_fake": false,
+  "bootstrap_resamples": 2000,
+  "consent_policy": "Explicit consent; linked survey consent allowed only with confirmed coverage.",
+  "views": {
+    "All devices|All collected hours": {
+      "counts": {
+        "participants": 20,
+        "checkins": 21,
+        "game_sessions": 19,
+        "paired_sessions": 11,
+        "hours_covered": 11.2
+      },
+      "clock": {
+        "raw": [
+          {
+            "group": 2,
+            "n": 3,
+            "rows": 3,
+            "mean": 2.3333333333333335,
+            "low": 1.0,
+            "high": 4.0
+          },
+          {
+            "group": 9,
+            "n": 3,
+            "rows": 3,
+            "mean": 4.333333333333333,
+            "low": 4.0,
+            "high": 5.0
+          },
+          {
+            "group": 21,
+            "n": 5,
+            "rows": 5,
+            "mean": 1.6,
+            "low": 1.0,
+            "high": 2.4
+          },
+          {
+            "group": 22,
+            "n": 10,
+            "rows": 10,
+            "mean": 2.9,
+            "low": 2.3,
+            "high": 3.5
+          }
+        ],
+        "centered": [
+          {
+            "group": 2,
+            "n": 3,
+            "rows": 3,
+            "mean": 0.16666666666666666,
+            "low": 0.0,
+            "high": 0.5
+          },
+          {
+            "group": 9,
+            "n": 3,
+            "rows": 3,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          {
+            "group": 21,
+            "n": 5,
+            "rows": 5,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          {
+            "group": 22,
+            "n": 10,
+            "rows": 10,
+            "mean": -0.05,
+            "low": -0.15,
+            "high": 0.0
+          }
+        ],
+        "crash": {
+          "group": 22,
+          "n": 10,
+          "rows": 10,
+          "mean": -0.05,
+          "low": -0.15,
+          "high": 0.0,
+          "hour": 22,
+          "hour_ci": [
+            22,
+            9
+          ],
+          "bootstrap_hour_share": {
+            "2": 0.3245,
+            "9": 0.0345,
+            "21": 0.0005,
+            "22": 0.6405
+          }
+        }
+      },
+      "elapsed": [
+        {
+          "group": 10.0,
+          "n": 5,
+          "rows": 5,
+          "mean": 1.6,
+          "low": 1.0,
+          "high": 2.4
+        },
+        {
+          "group": 11.0,
+          "n": 10,
+          "rows": 10,
+          "mean": 2.9,
+          "low": 2.3,
+          "high": 3.5
+        },
+        {
+          "group": 15.0,
+          "n": 3,
+          "rows": 3,
+          "mean": 2.3333333333333335,
+          "low": 1.0,
+          "high": 4.0
+        },
+        {
+          "group": 22.0,
+          "n": 3,
+          "rows": 3,
+          "mean": 4.333333333333333,
+          "low": 4.0,
+          "high": 5.0
+        }
+      ],
+      "focus": [
+        {
+          "group": 2,
+          "n": 3,
+          "rows": 3,
+          "mean": 3.0,
+          "low": 3.0,
+          "high": 3.0
+        },
+        {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 3.6666666666666665,
+          "low": 2.0,
+          "high": 5.0
+        },
+        {
+          "group": 21,
+          "n": 3,
+          "rows": 3,
+          "mean": 2.3333333333333335,
+          "low": 1.0,
+          "high": 5.0
+        },
+        {
+          "group": 22,
+          "n": 10,
+          "rows": 10,
+          "mean": 2.9,
+          "low": 2.3,
+          "high": 3.5
+        }
+      ],
+      "stuck": [
+        {
+          "group": 2,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        {
+          "group": 21,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.6666666666666666,
+          "low": 0.0,
+          "high": 1.0
+        },
+        {
+          "group": 22,
+          "n": 10,
+          "rows": 10,
+          "mean": 0.1,
+          "low": 0.0,
+          "high": 0.3
+        }
+      ],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 13,
+            "rows": 19,
+            "rho": -0.34675646743982486,
+            "low": -0.8180207481887161,
+            "high": 0.22984348435869975
+          },
+          {
+            "metric": "false_starts",
+            "n": 13,
+            "rows": 19,
+            "rho": 0.4664975004075039,
+            "low": 0.09935783568107155,
+            "high": 0.7628049253195087
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 13,
+            "rows": 18,
+            "rho": -0.2867564961978038,
+            "low": -0.7588153011556906,
+            "high": 0.24982130710680298
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 11,
+            "rows": 11,
+            "rho": -0.5455691410313525,
+            "low": -0.9575207837338288,
+            "high": 0.11965916546724498
+          },
+          {
+            "metric": "false_starts",
+            "n": 11,
+            "rows": 11,
+            "rho": 0.5846153846153846,
+            "low": 0.016218908318458295,
+            "high": 0.8891652739632494
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 11,
+            "rows": 11,
+            "rho": 0.009656090991705352,
+            "low": -0.6384981061094681,
+            "high": 0.693472136825575
+          }
+        ],
+        "gap": {
+          "n": 13,
+          "overconfident": 0.3684210526315789,
+          "underconfident": 0.3157894736842105,
+          "over_ci": [
+            0.0,
+            0.6521739130434783
+          ],
+          "under_ci": [
+            0.13043478260869565,
+            0.5625
+          ],
+          "histogram": [
+            {
+              "bin": "< -1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "-1.5 to -0.5",
+              "count": 5,
+              "n": 5
+            },
+            {
+              "bin": "-0.5 to 0.5",
+              "count": 6,
+              "n": 5
+            },
+            {
+              "bin": "0.5 to 1.5",
+              "count": 6,
+              "n": 3
+            },
+            {
+              "bin": "> 1.5",
+              "count": null,
+              "n": "n < 3"
+            }
+          ]
+        },
+        "reaction_by_energy": [
+          {
+            "group": 1,
+            "n": 4,
+            "rows": 4,
+            "mean": 899.5,
+            "low": 487.5,
+            "high": 1311.5
+          },
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": 4,
+            "rows": 6,
+            "mean": 399.0,
+            "low": 331.0,
+            "high": 459.0
+          },
+          {
+            "group": 4,
+            "n": 4,
+            "rows": 6,
+            "mean": 420.6666666666667,
+            "low": 299.5,
+            "high": 505.7142857142857
+          },
+          {
+            "group": 5,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "time_by_energy": [
+          {
+            "group": 1,
+            "n": 4,
+            "rows": 4,
+            "mean": 3.755,
+            "low": 1.7599999999999996,
+            "high": 6.359999999999999
+          },
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": 4,
+            "rows": 6,
+            "mean": 1.7333333333333336,
+            "low": 0.9150000000000005,
+            "high": 3.5860000000000007
+          },
+          {
+            "group": 4,
+            "n": 4,
+            "rows": 6,
+            "mean": 2.313333333333333,
+            "low": 0.17666666666666644,
+            "high": 4.45
+          },
+          {
+            "group": 5,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ]
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [
+            {
+              "group": "1-3 hours ago",
+              "n": 8,
+              "rows": 8,
+              "mean": 2.75,
+              "low": 2.125,
+              "high": 3.375
+            },
+            {
+              "group": "3-6 hours ago",
+              "n": 4,
+              "rows": 4,
+              "mean": 2.25,
+              "low": 1.25,
+              "high": 3.5
+            },
+            {
+              "group": "6+ hours ago",
+              "n": 3,
+              "rows": 3,
+              "mean": 4.333333333333333,
+              "low": 4.0,
+              "high": 5.0
+            },
+            {
+              "group": "Within 1 hour",
+              "n": 4,
+              "rows": 4,
+              "mean": 2.75,
+              "low": 1.5,
+              "high": 3.75
+            }
+          ],
+          "break_last_hour": [
+            {
+              "group": "No",
+              "n": 7,
+              "rows": 8,
+              "mean": 3.0,
+              "low": 2.0,
+              "high": 3.9
+            },
+            {
+              "group": "Yes",
+              "n": 11,
+              "rows": 11,
+              "mean": 2.8181818181818183,
+              "low": 2.272727272727273,
+              "high": 3.3636363636363638
+            }
+          ],
+          "caffeine_bucket": [
+            {
+              "group": "0",
+              "n": 3,
+              "rows": 3,
+              "mean": 3.6666666666666665,
+              "low": 3.0,
+              "high": 4.0
+            },
+            {
+              "group": "1-2",
+              "n": 7,
+              "rows": 7,
+              "mean": 2.857142857142857,
+              "low": 2.0,
+              "high": 3.7142857142857144
+            },
+            {
+              "group": "3+",
+              "n": 8,
+              "rows": 8,
+              "mean": 2.625,
+              "low": 1.75,
+              "high": 3.5
+            }
+          ],
+          "sleep_bucket": [
+            {
+              "group": "<5",
+              "n": 8,
+              "rows": 8,
+              "mean": 2.625,
+              "low": 1.75,
+              "high": 3.503124999999983
+            },
+            {
+              "group": "5-7",
+              "n": 8,
+              "rows": 8,
+              "mean": 2.875,
+              "low": 2.125,
+              "high": 3.625
+            },
+            {
+              "group": "7+",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ]
+        },
+        "demand": [
+          {
+            "hour": 2,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Coffee or tea",
+            "share": 1.0,
+            "n": 3,
+            "requesters": 3
+          },
+          {
+            "hour": 2,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Food",
+            "share": 0.3,
+            "n": 10,
+            "requesters": 3
+          },
+          {
+            "hour": 22,
+            "option": "Coffee or tea",
+            "share": 0.5,
+            "n": 10,
+            "requesters": 5
+          },
+          {
+            "hour": 22,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "A short break",
+            "share": 0.3,
+            "n": 10,
+            "requesters": 3
+          },
+          {
+            "hour": 22,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          }
+        ]
+      },
+      "model": {
+        "n": 17,
+        "rows": 18,
+        "status": "Model beats the baseline.",
+        "mae": 1.0215962958907765,
+        "baseline_mae": 1.1131055363321798,
+        "beats_baseline": true,
+        "coefficients": [
+          {
+            "term": "Intercept",
+            "estimate": -19.361871948017953,
+            "low": -98.25754499677087,
+            "high": 59.533801100734976
+          },
+          {
+            "term": "C(last_ate)[T.3-6 hours ago]",
+            "estimate": -1.4694405368589372,
+            "low": -2.9526177462866077,
+            "high": 0.013736672568733121
+          },
+          {
+            "term": "C(last_ate)[T.6+ hours ago]",
+            "estimate": 4.924546733391742,
+            "low": -20.371902818216217,
+            "high": 30.220996284999703
+          },
+          {
+            "term": "C(last_ate)[T.Within 1 hour]",
+            "estimate": 0.8273851956699122,
+            "low": -0.11696543126145842,
+            "high": 1.7717358226012827
+          },
+          {
+            "term": "C(break_last_hour)[T.Yes]",
+            "estimate": -0.5510152077117739,
+            "low": -2.0170637233169604,
+            "high": 0.9150333078934124
+          },
+          {
+            "term": "hours_since_start",
+            "estimate": 1.161482194312711,
+            "low": -4.350246680029563,
+            "high": 6.673211068654985
+          },
+          {
+            "term": "sin_hour",
+            "estimate": -4.555153259208554,
+            "low": -28.178577368252157,
+            "high": 19.068270849835052
+          },
+          {
+            "term": "cos_hour",
+            "estimate": 6.141608490208529,
+            "low": -3.2616488880347356,
+            "high": 15.544865868451794
+          },
+          {
+            "term": "slept_h",
+            "estimate": 0.32393966884666914,
+            "low": 0.029697360946559614,
+            "high": 0.6181819767467787
+          },
+          {
+            "term": "caffeine_today",
+            "estimate": -0.03338980162893201,
+            "low": -0.2542035107850299,
+            "high": 0.18742390752716587
+          }
+        ],
+        "association_status": "OLS with participant-clustered standard errors. Associations, not causes; small-cluster uncertainty may be optimistic.",
+        "predictor": {
+          "columns": [
+            "hours_since_start",
+            "sin_hour",
+            "cos_hour",
+            "slept_h",
+            "caffeine_today",
+            "last_ate=1-3 hours ago",
+            "last_ate=3-6 hours ago",
+            "last_ate=6+ hours ago",
+            "break_last_hour=No"
+          ],
+          "coef": [
+            0.14022661350969803,
+            -0.17257548231764144,
+            -0.15993987819413996,
+            0.2839869523483563,
+            -0.042956155506438345,
+            -0.23831246869931413,
+            -1.0321262090637011,
+            0.1966258040442898,
+            0.2041244841221478
+          ],
+          "intercept": 0.03378690219143188,
+          "error95": 2.2046873766209756,
+          "elapsed_range": [
+            10.88118361111111,
+            22.0224225
+          ]
+        }
+      },
+      "playbook": [
+        {
+          "title": "Offer optional coffee or tea and water",
+          "time": "01:30",
+          "evidence": "Coffee or tea requests peak at 02:00: 100% of answered check-ins, n=3 participants (3 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 1.0,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Arrange food arrival",
+          "time": "21:30",
+          "evidence": "Food requests peak at 22:00: 30% of answered check-ins, n=10 participants (3 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.3,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Invite a short break",
+          "time": "21:30",
+          "evidence": "A short break requests peak at 22:00: 30% of answered check-ins, n=10 participants (3 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.3,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Offer a rest check-in",
+          "time": "22:00",
+          "evidence": "Lowest centered energy: -0.05 points relative to personal mean, n=10 participants; 95% mean CI [-0.15, 0.00].",
+          "reason": "This suggests a low-energy window; it does not establish that a break changes performance.",
+          "effect_size": -0.05,
+          "source": "Energy Clock"
+        }
+      ],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\n## 01:30 - Offer optional coffee or tea and water\n\nCoffee or tea requests peak at 02:00: 100% of answered check-ins, n=3 participants (3 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 21:30 - Arrange food arrival\n\nFood requests peak at 22:00: 30% of answered check-ins, n=10 participants (3 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 21:30 - Invite a short break\n\nA short break requests peak at 22:00: 30% of answered check-ins, n=10 participants (3 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 22:00 - Offer a rest check-in\n\nLowest centered energy: -0.05 points relative to personal mean, n=10 participants; 95% mean CI [-0.15, 0.00].\n\nThis suggests a low-energy window; it does not establish that a break changes performance.\n\n",
+      "timeline": [
+        {
+          "time": "2026-11-08T03:00:00+00:00",
+          "source": "Check-ins",
+          "count": 5,
+          "n": 5
+        },
+        {
+          "time": "2026-11-08T04:00:00+00:00",
+          "source": "Check-ins",
+          "count": 10,
+          "n": 10
+        },
+        {
+          "time": "2026-11-08T08:00:00+00:00",
+          "source": "Check-ins",
+          "count": 3,
+          "n": 3
+        },
+        {
+          "time": "2026-11-08T15:00:00+00:00",
+          "source": "Check-ins",
+          "count": 3,
+          "n": 3
+        },
+        {
+          "time": "2026-11-08T03:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T04:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": 11,
+          "n": 11
+        },
+        {
+          "time": "2026-11-08T09:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T14:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": 4,
+          "n": 4
+        }
+      ],
+      "scatter": [
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 1270.0,
+          "n": 4
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 703.0,
+          "n": 4
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 272.0,
+          "n": 4
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 1353.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 376.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 485.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 319.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 454.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 322.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 438.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 420.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 303.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 296.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 617.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 462.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 426.0,
+          "n": 4
+        }
+      ],
+      "participant_lines": [
+        {
+          "participant_id": "P03",
+          "hours_since_start": 10.88118361111111,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "U11d69bf161a6dd2a",
+          "hours_since_start": 10.881887222222222,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P12",
+          "hours_since_start": 10.891040833333335,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P06",
+          "hours_since_start": 10.898166388888889,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "Uc79f5ded1258a982",
+          "hours_since_start": 10.901629722222221,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P07",
+          "hours_since_start": 11.370625555555556,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P01",
+          "hours_since_start": 11.409231666666665,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P09",
+          "hours_since_start": 11.442753333333332,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P02",
+          "hours_since_start": 11.511752777777778,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P05",
+          "hours_since_start": 11.602485277777777,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P08",
+          "hours_since_start": 11.705521666666666,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P11",
+          "hours_since_start": 11.748629166666667,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P04",
+          "hours_since_start": 11.792732777777779,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P10",
+          "hours_since_start": 11.861441944444444,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P13",
+          "hours_since_start": 11.90254,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P15",
+          "hours_since_start": 15.959927777777777,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P01",
+          "hours_since_start": 15.97276888888889,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P14",
+          "hours_since_start": 15.984286666666668,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P18",
+          "hours_since_start": 22.00546638888889,
+          "energy": 5.0
+        },
+        {
+          "participant_id": "P17",
+          "hours_since_start": 22.01321972222222,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P16",
+          "hours_since_start": 22.0224225,
+          "energy": 4.0
+        }
+      ]
+    },
+    "All devices|Evening (18-23)": {
+      "counts": {
+        "participants": 17,
+        "checkins": 15,
+        "game_sessions": 13,
+        "paired_sessions": 9,
+        "hours_covered": 1.0
+      },
+      "clock": {
+        "raw": [
+          {
+            "group": 21,
+            "n": 5,
+            "rows": 5,
+            "mean": 1.6,
+            "low": 1.0,
+            "high": 2.4
+          },
+          {
+            "group": 22,
+            "n": 10,
+            "rows": 10,
+            "mean": 2.9,
+            "low": 2.3,
+            "high": 3.5
+          }
+        ],
+        "centered": [
+          {
+            "group": 21,
+            "n": 5,
+            "rows": 5,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          {
+            "group": 22,
+            "n": 10,
+            "rows": 10,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        ],
+        "crash": {
+          "group": 21,
+          "n": 5,
+          "rows": 5,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "hour": 21,
+          "hour_ci": [
+            21,
+            21
+          ],
+          "bootstrap_hour_share": {
+            "21": 0.9985,
+            "22": 0.0015
+          }
+        }
+      },
+      "elapsed": [
+        {
+          "group": 10.0,
+          "n": 5,
+          "rows": 5,
+          "mean": 1.6,
+          "low": 1.0,
+          "high": 2.4
+        },
+        {
+          "group": 11.0,
+          "n": 10,
+          "rows": 10,
+          "mean": 2.9,
+          "low": 2.3,
+          "high": 3.5
+        }
+      ],
+      "focus": [
+        {
+          "group": 21,
+          "n": 3,
+          "rows": 3,
+          "mean": 2.3333333333333335,
+          "low": 1.0,
+          "high": 5.0
+        },
+        {
+          "group": 22,
+          "n": 10,
+          "rows": 10,
+          "mean": 2.9,
+          "low": 2.3,
+          "high": 3.5
+        }
+      ],
+      "stuck": [
+        {
+          "group": 21,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.6666666666666666,
+          "low": 0.0,
+          "high": 1.0
+        },
+        {
+          "group": 22,
+          "n": 10,
+          "rows": 10,
+          "mean": 0.1,
+          "low": 0.0,
+          "high": 0.3
+        }
+      ],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 12,
+            "rows": 13,
+            "rho": -0.29629823175386694,
+            "low": -0.8574013866215978,
+            "high": 0.3562792898316943
+          },
+          {
+            "metric": "false_starts",
+            "n": 12,
+            "rows": 13,
+            "rho": 0.5201288556358207,
+            "low": -0.08856903212446061,
+            "high": 0.8366863440490879
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 12,
+            "rows": 12,
+            "rho": -0.3510209902203658,
+            "low": -0.8274670128420252,
+            "high": 0.34963143171234223
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 9,
+            "rows": 9,
+            "rho": -0.6151857064768763,
+            "low": -0.9867543820659301,
+            "high": 0.1920073872635877
+          },
+          {
+            "metric": "false_starts",
+            "n": 9,
+            "rows": 9,
+            "rho": 0.3874921291460643,
+            "low": -0.36672649205253105,
+            "high": 0.8602832933038457
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 9,
+            "rows": 9,
+            "rho": -0.12996881122750908,
+            "low": -0.8660254037844386,
+            "high": 0.6646223733059167
+          }
+        ],
+        "gap": {
+          "n": 12,
+          "overconfident": 0.3076923076923077,
+          "underconfident": 0.38461538461538464,
+          "over_ci": [
+            0.0,
+            0.6
+          ],
+          "under_ci": [
+            0.14285714285714285,
+            0.6666666666666666
+          ],
+          "histogram": [
+            {
+              "bin": "< -1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "-1.5 to -0.5",
+              "count": 4,
+              "n": 4
+            },
+            {
+              "bin": "-0.5 to 0.5",
+              "count": 4,
+              "n": 4
+            },
+            {
+              "bin": "0.5 to 1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "> 1.5",
+              "count": null,
+              "n": "n < 3"
+            }
+          ]
+        },
+        "reaction_by_energy": [
+          {
+            "group": 1,
+            "n": 3,
+            "rows": 3,
+            "mean": 748.3333333333334,
+            "low": 272.0,
+            "high": 1270.0
+          },
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": 3,
+            "rows": 3,
+            "mean": 393.3333333333333,
+            "low": 319.0,
+            "high": 485.0
+          },
+          {
+            "group": 4,
+            "n": 4,
+            "rows": 4,
+            "mean": 409.0,
+            "low": 299.5,
+            "high": 538.5
+          },
+          {
+            "group": 5,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "time_by_energy": [
+          {
+            "group": 1,
+            "n": 3,
+            "rows": 3,
+            "mean": 3.9766666666666666,
+            "low": 1.2799999999999994,
+            "high": 7.45
+          },
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": 3,
+            "rows": 3,
+            "mean": 2.3600000000000003,
+            "low": 0.33999999999999986,
+            "high": 5.36
+          },
+          {
+            "group": 4,
+            "n": 4,
+            "rows": 4,
+            "mean": 1.7574999999999998,
+            "low": 0.17499999999999982,
+            "high": 4.4350000000000005
+          },
+          {
+            "group": 5,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ]
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [
+            {
+              "group": "1-3 hours ago",
+              "n": 8,
+              "rows": 8,
+              "mean": 2.75,
+              "low": 2.125,
+              "high": 3.375
+            },
+            {
+              "group": "3-6 hours ago",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "Within 1 hour",
+              "n": 4,
+              "rows": 4,
+              "mean": 2.75,
+              "low": 1.5,
+              "high": 3.75
+            }
+          ],
+          "break_last_hour": [
+            {
+              "group": "No",
+              "n": 3,
+              "rows": 3,
+              "mean": 2.6666666666666665,
+              "low": 1.0,
+              "high": 4.0
+            },
+            {
+              "group": "Yes",
+              "n": 10,
+              "rows": 10,
+              "mean": 2.7,
+              "low": 2.1,
+              "high": 3.2
+            }
+          ],
+          "caffeine_bucket": [
+            {
+              "group": "0",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "1-2",
+              "n": 5,
+              "rows": 5,
+              "mean": 2.2,
+              "low": 1.6,
+              "high": 2.8
+            },
+            {
+              "group": "3+",
+              "n": 5,
+              "rows": 5,
+              "mean": 2.8,
+              "low": 1.8,
+              "high": 3.8
+            }
+          ],
+          "sleep_bucket": [
+            {
+              "group": "<5",
+              "n": 5,
+              "rows": 5,
+              "mean": 2.0,
+              "low": 1.2,
+              "high": 2.8
+            },
+            {
+              "group": "5-7",
+              "n": 6,
+              "rows": 6,
+              "mean": 3.0,
+              "low": 2.3333333333333335,
+              "high": 3.6666666666666665
+            },
+            {
+              "group": "7+",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ]
+        },
+        "demand": [
+          {
+            "hour": 21,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Food",
+            "share": 0.3,
+            "n": 10,
+            "requesters": 3
+          },
+          {
+            "hour": 22,
+            "option": "Coffee or tea",
+            "share": 0.5,
+            "n": 10,
+            "requesters": 5
+          },
+          {
+            "hour": 22,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "A short break",
+            "share": 0.3,
+            "n": 10,
+            "requesters": 3
+          },
+          {
+            "hour": 22,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          }
+        ]
+      },
+      "model": {
+        "n": 12,
+        "rows": 12,
+        "status": "Model does not beat the baseline. Use observed hourly means.",
+        "mae": 1.0135063605082,
+        "baseline_mae": 0.9696969696969697,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Coefficients unavailable: insufficient independent variation or residual degrees of freedom.",
+        "predictor": {
+          "columns": [
+            "hours_since_start",
+            "sin_hour",
+            "cos_hour",
+            "slept_h",
+            "caffeine_today",
+            "last_ate=1-3 hours ago",
+            "last_ate=3-6 hours ago",
+            "last_ate=6+ hours ago",
+            "break_last_hour=No"
+          ],
+          "coef": [
+            0.2737176440595736,
+            0.12425118330028245,
+            0.09534128623462733,
+            0.3914868688694907,
+            -0.0010826490185699197,
+            -0.29339586668709705,
+            -0.8646054455059157,
+            0.0,
+            -0.08280263536726352
+          ],
+          "intercept": -2.0632338493465485,
+          "error95": 2.2148997568960476,
+          "elapsed_range": [
+            10.88118361111111,
+            11.861441944444444
+          ]
+        }
+      },
+      "playbook": [
+        {
+          "title": "Offer optional coffee or tea and water",
+          "time": "21:30",
+          "evidence": "Coffee or tea requests peak at 22:00: 50% of answered check-ins, n=10 participants (5 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.5,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Arrange food arrival",
+          "time": "21:30",
+          "evidence": "Food requests peak at 22:00: 30% of answered check-ins, n=10 participants (3 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.3,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Invite a short break",
+          "time": "21:30",
+          "evidence": "A short break requests peak at 22:00: 30% of answered check-ins, n=10 participants (3 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.3,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Offer a rest check-in",
+          "time": "21:00",
+          "evidence": "Lowest centered energy: +0.00 points relative to personal mean, n=5 participants; 95% mean CI [0.00, 0.00].",
+          "reason": "This suggests a low-energy window; it does not establish that a break changes performance.",
+          "effect_size": 0.0,
+          "source": "Energy Clock"
+        }
+      ],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\n## 21:00 - Offer a rest check-in\n\nLowest centered energy: +0.00 points relative to personal mean, n=5 participants; 95% mean CI [0.00, 0.00].\n\nThis suggests a low-energy window; it does not establish that a break changes performance.\n\n## 21:30 - Offer optional coffee or tea and water\n\nCoffee or tea requests peak at 22:00: 50% of answered check-ins, n=10 participants (5 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 21:30 - Arrange food arrival\n\nFood requests peak at 22:00: 30% of answered check-ins, n=10 participants (3 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 21:30 - Invite a short break\n\nA short break requests peak at 22:00: 30% of answered check-ins, n=10 participants (3 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n",
+      "timeline": [
+        {
+          "time": "2026-11-08T03:00:00+00:00",
+          "source": "Check-ins",
+          "count": 5,
+          "n": 5
+        },
+        {
+          "time": "2026-11-08T04:00:00+00:00",
+          "source": "Check-ins",
+          "count": 10,
+          "n": 10
+        },
+        {
+          "time": "2026-11-08T03:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T04:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": 11,
+          "n": 11
+        }
+      ],
+      "scatter": [
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 1270.0,
+          "n": 3
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 703.0,
+          "n": 3
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 272.0,
+          "n": 3
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 376.0,
+          "n": 3
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 485.0,
+          "n": 3
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 319.0,
+          "n": 3
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 420.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 303.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 296.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 617.0,
+          "n": 4
+        }
+      ],
+      "participant_lines": [
+        {
+          "participant_id": "P03",
+          "hours_since_start": 10.88118361111111,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "U11d69bf161a6dd2a",
+          "hours_since_start": 10.881887222222222,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P12",
+          "hours_since_start": 10.891040833333335,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P06",
+          "hours_since_start": 10.898166388888889,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "Uc79f5ded1258a982",
+          "hours_since_start": 10.901629722222221,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P07",
+          "hours_since_start": 11.370625555555556,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P01",
+          "hours_since_start": 11.409231666666665,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P09",
+          "hours_since_start": 11.442753333333332,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P02",
+          "hours_since_start": 11.511752777777778,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P05",
+          "hours_since_start": 11.602485277777777,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P08",
+          "hours_since_start": 11.705521666666666,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P11",
+          "hours_since_start": 11.748629166666667,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P04",
+          "hours_since_start": 11.792732777777779,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P10",
+          "hours_since_start": 11.861441944444444,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P13",
+          "hours_since_start": 11.90254,
+          "energy": 3.0
+        }
+      ]
+    },
+    "All devices|Late night (00-03)": {
+      "counts": {
+        "participants": 5,
+        "checkins": 3,
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": 0.3
+      },
+      "clock": {
+        "raw": [
+          {
+            "group": 2,
+            "n": 3,
+            "rows": 3,
+            "mean": 2.3333333333333335,
+            "low": 1.0,
+            "high": 4.0
+          }
+        ],
+        "centered": [
+          {
+            "group": 2,
+            "n": 3,
+            "rows": 3,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        ],
+        "crash": {
+          "group": 2,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "hour": 2,
+          "hour_ci": [
+            2,
+            2
+          ],
+          "bootstrap_hour_share": {
+            "2": 1.0
+          }
+        }
+      },
+      "elapsed": [
+        {
+          "group": 15.0,
+          "n": 3,
+          "rows": 3,
+          "mean": 2.3333333333333335,
+          "low": 1.0,
+          "high": 4.0
+        }
+      ],
+      "focus": [
+        {
+          "group": 2,
+          "n": 3,
+          "rows": 3,
+          "mean": 3.0,
+          "low": 3.0,
+          "high": 3.0
+        }
+      ],
+      "stuck": [
+        {
+          "group": 2,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        }
+      ],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [
+          {
+            "group": 1,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "time_by_energy": [
+          {
+            "group": 1,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ]
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [
+            {
+              "group": "3-6 hours ago",
+              "n": 3,
+              "rows": 3,
+              "mean": 2.3333333333333335,
+              "low": 1.0,
+              "high": 4.0
+            }
+          ],
+          "break_last_hour": [
+            {
+              "group": "No",
+              "n": 3,
+              "rows": 3,
+              "mean": 2.3333333333333335,
+              "low": 1.0,
+              "high": 4.0
+            }
+          ],
+          "caffeine_bucket": [
+            {
+              "group": "3+",
+              "n": 3,
+              "rows": 3,
+              "mean": 2.3333333333333335,
+              "low": 1.0,
+              "high": 4.0
+            }
+          ],
+          "sleep_bucket": [
+            {
+              "group": "<5",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "5-7",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "7+",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ]
+        },
+        "demand": [
+          {
+            "hour": 2,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Coffee or tea",
+            "share": 1.0,
+            "n": 3,
+            "requesters": 3
+          },
+          {
+            "hour": 2,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          }
+        ]
+      },
+      "model": {
+        "n": 3,
+        "rows": 3,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [
+        {
+          "title": "Offer optional coffee or tea and water",
+          "time": "01:30",
+          "evidence": "Coffee or tea requests peak at 02:00: 100% of answered check-ins, n=3 participants (3 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 1.0,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Offer a rest check-in",
+          "time": "02:00",
+          "evidence": "Lowest centered energy: +0.00 points relative to personal mean, n=3 participants; 95% mean CI [0.00, 0.00].",
+          "reason": "This suggests a low-energy window; it does not establish that a break changes performance.",
+          "effect_size": 0.0,
+          "source": "Energy Clock"
+        }
+      ],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\n## 01:30 - Offer optional coffee or tea and water\n\nCoffee or tea requests peak at 02:00: 100% of answered check-ins, n=3 participants (3 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 02:00 - Offer a rest check-in\n\nLowest centered energy: +0.00 points relative to personal mean, n=3 participants; 95% mean CI [0.00, 0.00].\n\nThis suggests a low-energy window; it does not establish that a break changes performance.\n\n",
+      "timeline": [
+        {
+          "time": "2026-11-08T08:00:00+00:00",
+          "source": "Check-ins",
+          "count": 3,
+          "n": 3
+        },
+        {
+          "time": "2026-11-08T09:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": null,
+          "n": "n < 3"
+        }
+      ],
+      "scatter": [],
+      "participant_lines": [
+        {
+          "participant_id": "P15",
+          "hours_since_start": 15.959927777777777,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P01",
+          "hours_since_start": 15.97276888888889,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P14",
+          "hours_since_start": 15.984286666666668,
+          "energy": 1.0
+        }
+      ]
+    },
+    "All devices|Dawn (04-07)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "All devices|Morning (08-12)": {
+      "counts": {
+        "participants": 5,
+        "checkins": 3,
+        "game_sessions": 4,
+        "paired_sessions": "n < 3",
+        "hours_covered": 0.1
+      },
+      "clock": {
+        "raw": [
+          {
+            "group": 9,
+            "n": 3,
+            "rows": 3,
+            "mean": 4.333333333333333,
+            "low": 4.0,
+            "high": 5.0
+          }
+        ],
+        "centered": [
+          {
+            "group": 9,
+            "n": 3,
+            "rows": 3,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        ],
+        "crash": {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "hour": 9,
+          "hour_ci": [
+            9,
+            9
+          ],
+          "bootstrap_hour_share": {
+            "9": 1.0
+          }
+        }
+      },
+      "elapsed": [
+        {
+          "group": 22.0,
+          "n": 3,
+          "rows": 3,
+          "mean": 4.333333333333333,
+          "low": 4.0,
+          "high": 5.0
+        }
+      ],
+      "focus": [
+        {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 3.6666666666666665,
+          "low": 2.0,
+          "high": 5.0
+        }
+      ],
+      "stuck": [
+        {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        }
+      ],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 4,
+            "rows": 4,
+            "rho": 0.4472135954999579,
+            "low": -1.0,
+            "high": 1.0
+          },
+          {
+            "metric": "false_starts",
+            "n": 4,
+            "rows": 4,
+            "rho": -0.5773502691896257,
+            "low": -1.0,
+            "high": -0.3333333333333333
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 4,
+            "rows": 4,
+            "rho": 0.0,
+            "low": -1.0,
+            "high": 1.0
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": 4,
+          "overconfident": 0.5,
+          "underconfident": 0.5,
+          "over_ci": [
+            0.0,
+            1.0
+          ],
+          "under_ci": [
+            0.0,
+            1.0
+          ],
+          "histogram": [
+            {
+              "bin": "< -1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "-1.5 to -0.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "-0.5 to 0.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "0.5 to 1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "> 1.5",
+              "count": null,
+              "n": "n < 3"
+            }
+          ]
+        },
+        "reaction_by_energy": [
+          {
+            "group": 3,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 4,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "time_by_energy": [
+          {
+            "group": 3,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 4,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ]
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [
+            {
+              "group": "6+ hours ago",
+              "n": 3,
+              "rows": 3,
+              "mean": 4.333333333333333,
+              "low": 4.0,
+              "high": 5.0
+            }
+          ],
+          "break_last_hour": [
+            {
+              "group": "No",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "Yes",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ],
+          "caffeine_bucket": [
+            {
+              "group": "0",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "1-2",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ],
+          "sleep_bucket": [
+            {
+              "group": "<5",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "5-7",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ]
+        },
+        "demand": [
+          {
+            "hour": 9,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          }
+        ]
+      },
+      "model": {
+        "n": 3,
+        "rows": 3,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [
+        {
+          "title": "Offer a rest check-in",
+          "time": "09:00",
+          "evidence": "Lowest centered energy: +0.00 points relative to personal mean, n=3 participants; 95% mean CI [0.00, 0.00].",
+          "reason": "This suggests a low-energy window; it does not establish that a break changes performance.",
+          "effect_size": 0.0,
+          "source": "Energy Clock"
+        }
+      ],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\n## 09:00 - Offer a rest check-in\n\nLowest centered energy: +0.00 points relative to personal mean, n=3 participants; 95% mean CI [0.00, 0.00].\n\nThis suggests a low-energy window; it does not establish that a break changes performance.\n\n",
+      "timeline": [
+        {
+          "time": "2026-11-08T15:00:00+00:00",
+          "source": "Check-ins",
+          "count": 3,
+          "n": 3
+        },
+        {
+          "time": "2026-11-08T14:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": 4,
+          "n": 4
+        }
+      ],
+      "scatter": [],
+      "participant_lines": [
+        {
+          "participant_id": "P18",
+          "hours_since_start": 22.00546638888889,
+          "energy": 5.0
+        },
+        {
+          "participant_id": "P17",
+          "hours_since_start": 22.01321972222222,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P16",
+          "hours_since_start": 22.0224225,
+          "energy": 4.0
+        }
+      ]
+    },
+    "All devices|Afternoon (13-17)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "station|All collected hours": {
+      "counts": {
+        "participants": 13,
+        "checkins": 14,
+        "game_sessions": 19,
+        "paired_sessions": 11,
+        "hours_covered": 11.2
+      },
+      "clock": {
+        "raw": [
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 9,
+            "n": 3,
+            "rows": 3,
+            "mean": 4.333333333333333,
+            "low": 4.0,
+            "high": 5.0
+          },
+          {
+            "group": 21,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 22,
+            "n": 8,
+            "rows": 8,
+            "mean": 2.875,
+            "low": 2.125,
+            "high": 3.625
+          }
+        ],
+        "centered": [
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 9,
+            "n": 3,
+            "rows": 3,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          },
+          {
+            "group": 21,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 22,
+            "n": 8,
+            "rows": 8,
+            "mean": -0.0625,
+            "low": -0.1875,
+            "high": 0.0
+          }
+        ],
+        "crash": {
+          "group": 22,
+          "n": 8,
+          "rows": 8,
+          "mean": -0.0625,
+          "low": -0.1875,
+          "high": 0.0,
+          "hour": 22,
+          "hour_ci": [
+            22,
+            9
+          ],
+          "bootstrap_hour_share": {
+            "9": 0.348,
+            "22": 0.652
+          }
+        }
+      },
+      "elapsed": [
+        {
+          "group": 10.0,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 11.0,
+          "n": 8,
+          "rows": 8,
+          "mean": 2.875,
+          "low": 2.125,
+          "high": 3.625
+        },
+        {
+          "group": 15.0,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 22.0,
+          "n": 3,
+          "rows": 3,
+          "mean": 4.333333333333333,
+          "low": 4.0,
+          "high": 5.0
+        }
+      ],
+      "focus": [
+        {
+          "group": 2,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 3.6666666666666665,
+          "low": 2.0,
+          "high": 5.0
+        },
+        {
+          "group": 21,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 22,
+          "n": 8,
+          "rows": 8,
+          "mean": 2.875,
+          "low": 2.125,
+          "high": 3.5
+        }
+      ],
+      "stuck": [
+        {
+          "group": 2,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        },
+        {
+          "group": 21,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 22,
+          "n": 8,
+          "rows": 8,
+          "mean": 0.125,
+          "low": 0.0,
+          "high": 0.375
+        }
+      ],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 13,
+            "rows": 19,
+            "rho": -0.34675646743982486,
+            "low": -0.8180207481887161,
+            "high": 0.22984348435869975
+          },
+          {
+            "metric": "false_starts",
+            "n": 13,
+            "rows": 19,
+            "rho": 0.4664975004075039,
+            "low": 0.09935783568107155,
+            "high": 0.7628049253195087
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 13,
+            "rows": 18,
+            "rho": -0.2867564961978038,
+            "low": -0.7588153011556906,
+            "high": 0.24982130710680298
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 11,
+            "rows": 11,
+            "rho": -0.5455691410313525,
+            "low": -0.9575207837338288,
+            "high": 0.11965916546724498
+          },
+          {
+            "metric": "false_starts",
+            "n": 11,
+            "rows": 11,
+            "rho": 0.5846153846153846,
+            "low": 0.016218908318458295,
+            "high": 0.8891652739632494
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 11,
+            "rows": 11,
+            "rho": 0.009656090991705352,
+            "low": -0.6384981061094681,
+            "high": 0.693472136825575
+          }
+        ],
+        "gap": {
+          "n": 13,
+          "overconfident": 0.3684210526315789,
+          "underconfident": 0.3157894736842105,
+          "over_ci": [
+            0.0,
+            0.6521739130434783
+          ],
+          "under_ci": [
+            0.13043478260869565,
+            0.5625
+          ],
+          "histogram": [
+            {
+              "bin": "< -1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "-1.5 to -0.5",
+              "count": 5,
+              "n": 5
+            },
+            {
+              "bin": "-0.5 to 0.5",
+              "count": 6,
+              "n": 5
+            },
+            {
+              "bin": "0.5 to 1.5",
+              "count": 6,
+              "n": 3
+            },
+            {
+              "bin": "> 1.5",
+              "count": null,
+              "n": "n < 3"
+            }
+          ]
+        },
+        "reaction_by_energy": [
+          {
+            "group": 1,
+            "n": 4,
+            "rows": 4,
+            "mean": 899.5,
+            "low": 487.5,
+            "high": 1311.5
+          },
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": 4,
+            "rows": 6,
+            "mean": 399.0,
+            "low": 331.0,
+            "high": 459.0
+          },
+          {
+            "group": 4,
+            "n": 4,
+            "rows": 6,
+            "mean": 420.6666666666667,
+            "low": 299.5,
+            "high": 505.7142857142857
+          },
+          {
+            "group": 5,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "time_by_energy": [
+          {
+            "group": 1,
+            "n": 4,
+            "rows": 4,
+            "mean": 3.755,
+            "low": 1.7599999999999996,
+            "high": 6.359999999999999
+          },
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": 4,
+            "rows": 6,
+            "mean": 1.7333333333333336,
+            "low": 0.9150000000000005,
+            "high": 3.5860000000000007
+          },
+          {
+            "group": 4,
+            "n": 4,
+            "rows": 6,
+            "mean": 2.313333333333333,
+            "low": 0.17666666666666644,
+            "high": 4.45
+          },
+          {
+            "group": 5,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ]
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [
+            {
+              "group": "1-3 hours ago",
+              "n": 5,
+              "rows": 5,
+              "mean": 2.8,
+              "low": 1.8,
+              "high": 3.8
+            },
+            {
+              "group": "3-6 hours ago",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "6+ hours ago",
+              "n": 3,
+              "rows": 3,
+              "mean": 4.333333333333333,
+              "low": 4.0,
+              "high": 5.0
+            },
+            {
+              "group": "Within 1 hour",
+              "n": 4,
+              "rows": 4,
+              "mean": 2.75,
+              "low": 1.5,
+              "high": 3.75
+            }
+          ],
+          "break_last_hour": [
+            {
+              "group": "No",
+              "n": 5,
+              "rows": 6,
+              "mean": 3.5,
+              "low": 2.3333333333333335,
+              "high": 4.4
+            },
+            {
+              "group": "Yes",
+              "n": 8,
+              "rows": 8,
+              "mean": 2.875,
+              "low": 2.125,
+              "high": 3.625
+            }
+          ],
+          "caffeine_bucket": [
+            {
+              "group": "0",
+              "n": 3,
+              "rows": 3,
+              "mean": 3.6666666666666665,
+              "low": 3.0,
+              "high": 4.0
+            },
+            {
+              "group": "1-2",
+              "n": 5,
+              "rows": 5,
+              "mean": 3.0,
+              "low": 1.8,
+              "high": 4.2
+            },
+            {
+              "group": "3+",
+              "n": 6,
+              "rows": 6,
+              "mean": 3.0,
+              "low": 2.0,
+              "high": 3.8333333333333335
+            }
+          ],
+          "sleep_bucket": [
+            {
+              "group": "<5",
+              "n": 5,
+              "rows": 5,
+              "mean": 2.8,
+              "low": 1.4,
+              "high": 4.2
+            },
+            {
+              "group": "5-7",
+              "n": 7,
+              "rows": 7,
+              "mean": 3.142857142857143,
+              "low": 2.5714285714285716,
+              "high": 3.7142857142857144
+            },
+            {
+              "group": "7+",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ]
+        },
+        "demand": [
+          {
+            "hour": 2,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Coffee or tea",
+            "share": 0.5,
+            "n": 8,
+            "requesters": 4
+          },
+          {
+            "hour": 22,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "A short break",
+            "share": 0.375,
+            "n": 8,
+            "requesters": 3
+          },
+          {
+            "hour": 22,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          }
+        ]
+      },
+      "model": {
+        "n": 13,
+        "rows": 14,
+        "status": "Model does not beat the baseline. Use observed hourly means.",
+        "mae": 1.2067575111415947,
+        "baseline_mae": 1.1153846153846154,
+        "beats_baseline": false,
+        "coefficients": [
+          {
+            "term": "Intercept",
+            "estimate": -13.954170296270323,
+            "low": -84.2720395737053,
+            "high": 56.36369898116466
+          },
+          {
+            "term": "C(last_ate)[T.3-6 hours ago]",
+            "estimate": -0.9856467745448687,
+            "low": -2.5729090540173907,
+            "high": 0.601615504927653
+          },
+          {
+            "term": "C(last_ate)[T.6+ hours ago]",
+            "estimate": 13.297105284234098,
+            "low": -30.122528264546922,
+            "high": 56.71673883301512
+          },
+          {
+            "term": "C(last_ate)[T.Within 1 hour]",
+            "estimate": 1.4561735243819043,
+            "low": 0.24652950787373573,
+            "high": 2.665817540890073
+          },
+          {
+            "term": "C(break_last_hour)[T.Yes]",
+            "estimate": -0.723207168908278,
+            "low": -2.4010700269568623,
+            "high": 0.9546556891403064
+          },
+          {
+            "term": "hours_since_start",
+            "estimate": 0.5421625072599681,
+            "low": -4.931531328611015,
+            "high": 6.015856343130951
+          },
+          {
+            "term": "sin_hour",
+            "estimate": -1.1726499504391104,
+            "low": -23.922270778463968,
+            "high": 21.576970877585744
+          },
+          {
+            "term": "cos_hour",
+            "estimate": 9.763343289560046,
+            "low": -5.222466704774174,
+            "high": 24.749153283894266
+          },
+          {
+            "term": "slept_h",
+            "estimate": 0.3425376119581784,
+            "low": -0.06983810199401341,
+            "high": 0.7549133259103702
+          },
+          {
+            "term": "caffeine_today",
+            "estimate": 0.0026478038032336504,
+            "low": -0.3492295601850191,
+            "high": 0.3545251677914864
+          }
+        ],
+        "association_status": "OLS with participant-clustered standard errors. Associations, not causes; small-cluster uncertainty may be optimistic.",
+        "predictor": {
+          "columns": [
+            "hours_since_start",
+            "sin_hour",
+            "cos_hour",
+            "slept_h",
+            "caffeine_today",
+            "last_ate=1-3 hours ago",
+            "last_ate=3-6 hours ago",
+            "last_ate=6+ hours ago",
+            "break_last_hour=No"
+          ],
+          "coef": [
+            0.17375635811043139,
+            0.13092921528059642,
+            0.17416980010539054,
+            0.2589762991490409,
+            -0.039730055775019923,
+            -0.3089697127945159,
+            -0.6699403711142692,
+            -0.05523503064261666,
+            0.3543973485137448
+          ],
+          "intercept": -0.3741721802780731,
+          "error95": 2.647432250277339,
+          "elapsed_range": [
+            10.88118361111111,
+            22.0224225
+          ]
+        }
+      },
+      "playbook": [
+        {
+          "title": "Offer optional coffee or tea and water",
+          "time": "21:30",
+          "evidence": "Coffee or tea requests peak at 22:00: 50% of answered check-ins, n=8 participants (4 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.5,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Invite a short break",
+          "time": "21:30",
+          "evidence": "A short break requests peak at 22:00: 38% of answered check-ins, n=8 participants (3 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.375,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Offer a rest check-in",
+          "time": "22:00",
+          "evidence": "Lowest centered energy: -0.06 points relative to personal mean, n=8 participants; 95% mean CI [-0.19, 0.00].",
+          "reason": "This suggests a low-energy window; it does not establish that a break changes performance.",
+          "effect_size": -0.0625,
+          "source": "Energy Clock"
+        }
+      ],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\n## 21:30 - Offer optional coffee or tea and water\n\nCoffee or tea requests peak at 22:00: 50% of answered check-ins, n=8 participants (4 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 21:30 - Invite a short break\n\nA short break requests peak at 22:00: 38% of answered check-ins, n=8 participants (3 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 22:00 - Offer a rest check-in\n\nLowest centered energy: -0.06 points relative to personal mean, n=8 participants; 95% mean CI [-0.19, 0.00].\n\nThis suggests a low-energy window; it does not establish that a break changes performance.\n\n",
+      "timeline": [
+        {
+          "time": "2026-11-08T03:00:00+00:00",
+          "source": "Check-ins",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T04:00:00+00:00",
+          "source": "Check-ins",
+          "count": 8,
+          "n": 8
+        },
+        {
+          "time": "2026-11-08T08:00:00+00:00",
+          "source": "Check-ins",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T15:00:00+00:00",
+          "source": "Check-ins",
+          "count": 3,
+          "n": 3
+        },
+        {
+          "time": "2026-11-08T03:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T04:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": 11,
+          "n": 11
+        },
+        {
+          "time": "2026-11-08T09:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T14:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": 4,
+          "n": 4
+        }
+      ],
+      "scatter": [
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 1270.0,
+          "n": 4
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 703.0,
+          "n": 4
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 272.0,
+          "n": 4
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 1353.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 376.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 485.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 319.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 454.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 322.0,
+          "n": 4
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 438.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 420.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 303.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 296.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 617.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 462.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 426.0,
+          "n": 4
+        }
+      ],
+      "participant_lines": [
+        {
+          "participant_id": "P07",
+          "hours_since_start": 11.370625555555556,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P01",
+          "hours_since_start": 11.409231666666665,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P09",
+          "hours_since_start": 11.442753333333332,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P02",
+          "hours_since_start": 11.511752777777778,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P05",
+          "hours_since_start": 11.602485277777777,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P11",
+          "hours_since_start": 11.748629166666667,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P04",
+          "hours_since_start": 11.792732777777779,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P10",
+          "hours_since_start": 11.861441944444444,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P18",
+          "hours_since_start": 22.00546638888889,
+          "energy": 5.0
+        },
+        {
+          "participant_id": "P17",
+          "hours_since_start": 22.01321972222222,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P16",
+          "hours_since_start": 22.0224225,
+          "energy": 4.0
+        }
+      ]
+    },
+    "station|Evening (18-23)": {
+      "counts": {
+        "participants": 12,
+        "checkins": 10,
+        "game_sessions": 13,
+        "paired_sessions": 9,
+        "hours_covered": 1.0
+      },
+      "clock": {
+        "raw": [
+          {
+            "group": 21,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 22,
+            "n": 8,
+            "rows": 8,
+            "mean": 2.875,
+            "low": 2.125,
+            "high": 3.625
+          }
+        ],
+        "centered": [
+          {
+            "group": 21,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 22,
+            "n": 8,
+            "rows": 8,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        ],
+        "crash": {
+          "group": 22,
+          "n": 8,
+          "rows": 8,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "hour": 22,
+          "hour_ci": [
+            22,
+            22
+          ],
+          "bootstrap_hour_share": {
+            "22": 1.0
+          }
+        }
+      },
+      "elapsed": [
+        {
+          "group": 10.0,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 11.0,
+          "n": 8,
+          "rows": 8,
+          "mean": 2.875,
+          "low": 2.125,
+          "high": 3.625
+        }
+      ],
+      "focus": [
+        {
+          "group": 21,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 22,
+          "n": 8,
+          "rows": 8,
+          "mean": 2.875,
+          "low": 2.125,
+          "high": 3.5
+        }
+      ],
+      "stuck": [
+        {
+          "group": 21,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        },
+        {
+          "group": 22,
+          "n": 8,
+          "rows": 8,
+          "mean": 0.125,
+          "low": 0.0,
+          "high": 0.375
+        }
+      ],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 12,
+            "rows": 13,
+            "rho": -0.29629823175386694,
+            "low": -0.8574013866215978,
+            "high": 0.3562792898316943
+          },
+          {
+            "metric": "false_starts",
+            "n": 12,
+            "rows": 13,
+            "rho": 0.5201288556358207,
+            "low": -0.08856903212446061,
+            "high": 0.8366863440490879
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 12,
+            "rows": 12,
+            "rho": -0.3510209902203658,
+            "low": -0.8274670128420252,
+            "high": 0.34963143171234223
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 9,
+            "rows": 9,
+            "rho": -0.6151857064768763,
+            "low": -0.9867543820659301,
+            "high": 0.1920073872635877
+          },
+          {
+            "metric": "false_starts",
+            "n": 9,
+            "rows": 9,
+            "rho": 0.3874921291460643,
+            "low": -0.36672649205253105,
+            "high": 0.8602832933038457
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 9,
+            "rows": 9,
+            "rho": -0.12996881122750908,
+            "low": -0.8660254037844386,
+            "high": 0.6646223733059167
+          }
+        ],
+        "gap": {
+          "n": 12,
+          "overconfident": 0.3076923076923077,
+          "underconfident": 0.38461538461538464,
+          "over_ci": [
+            0.0,
+            0.6
+          ],
+          "under_ci": [
+            0.14285714285714285,
+            0.6666666666666666
+          ],
+          "histogram": [
+            {
+              "bin": "< -1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "-1.5 to -0.5",
+              "count": 4,
+              "n": 4
+            },
+            {
+              "bin": "-0.5 to 0.5",
+              "count": 4,
+              "n": 4
+            },
+            {
+              "bin": "0.5 to 1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "> 1.5",
+              "count": null,
+              "n": "n < 3"
+            }
+          ]
+        },
+        "reaction_by_energy": [
+          {
+            "group": 1,
+            "n": 3,
+            "rows": 3,
+            "mean": 748.3333333333334,
+            "low": 272.0,
+            "high": 1270.0
+          },
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": 3,
+            "rows": 3,
+            "mean": 393.3333333333333,
+            "low": 319.0,
+            "high": 485.0
+          },
+          {
+            "group": 4,
+            "n": 4,
+            "rows": 4,
+            "mean": 409.0,
+            "low": 299.5,
+            "high": 538.5
+          },
+          {
+            "group": 5,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "time_by_energy": [
+          {
+            "group": 1,
+            "n": 3,
+            "rows": 3,
+            "mean": 3.9766666666666666,
+            "low": 1.2799999999999994,
+            "high": 7.45
+          },
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": 3,
+            "rows": 3,
+            "mean": 2.3600000000000003,
+            "low": 0.33999999999999986,
+            "high": 5.36
+          },
+          {
+            "group": 4,
+            "n": 4,
+            "rows": 4,
+            "mean": 1.7574999999999998,
+            "low": 0.17499999999999982,
+            "high": 4.4350000000000005
+          },
+          {
+            "group": 5,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ]
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [
+            {
+              "group": "1-3 hours ago",
+              "n": 5,
+              "rows": 5,
+              "mean": 2.8,
+              "low": 1.8,
+              "high": 3.8
+            },
+            {
+              "group": "3-6 hours ago",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "Within 1 hour",
+              "n": 4,
+              "rows": 4,
+              "mean": 2.75,
+              "low": 1.5,
+              "high": 3.75
+            }
+          ],
+          "break_last_hour": [
+            {
+              "group": "No",
+              "n": 3,
+              "rows": 3,
+              "mean": 2.6666666666666665,
+              "low": 1.0,
+              "high": 4.0
+            },
+            {
+              "group": "Yes",
+              "n": 7,
+              "rows": 7,
+              "mean": 2.7142857142857144,
+              "low": 2.0,
+              "high": 3.4285714285714284
+            }
+          ],
+          "caffeine_bucket": [
+            {
+              "group": "0",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "1-2",
+              "n": 3,
+              "rows": 3,
+              "mean": 2.0,
+              "low": 1.0,
+              "high": 3.0
+            },
+            {
+              "group": "3+",
+              "n": 5,
+              "rows": 5,
+              "mean": 2.8,
+              "low": 1.8,
+              "high": 3.8
+            }
+          ],
+          "sleep_bucket": [
+            {
+              "group": "<5",
+              "n": 3,
+              "rows": 3,
+              "mean": 1.6666666666666667,
+              "low": 1.0,
+              "high": 3.0
+            },
+            {
+              "group": "5-7",
+              "n": 6,
+              "rows": 6,
+              "mean": 3.0,
+              "low": 2.3333333333333335,
+              "high": 3.6666666666666665
+            },
+            {
+              "group": "7+",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ]
+        },
+        "demand": [
+          {
+            "hour": 21,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 21,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Coffee or tea",
+            "share": 0.5,
+            "n": 8,
+            "requesters": 4
+          },
+          {
+            "hour": 22,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "A short break",
+            "share": 0.375,
+            "n": 8,
+            "requesters": 3
+          },
+          {
+            "hour": 22,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 22,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          }
+        ]
+      },
+      "model": {
+        "n": 10,
+        "rows": 10,
+        "status": "Model does not beat the baseline. Use observed hourly means.",
+        "mae": 1.2000700840636216,
+        "baseline_mae": 1.0666666666666667,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Coefficients unavailable: insufficient independent variation or residual degrees of freedom.",
+        "predictor": {
+          "columns": [
+            "hours_since_start",
+            "sin_hour",
+            "cos_hour",
+            "slept_h",
+            "caffeine_today",
+            "last_ate=1-3 hours ago",
+            "last_ate=3-6 hours ago",
+            "last_ate=6+ hours ago",
+            "break_last_hour=No"
+          ],
+          "coef": [
+            0.1572810974810676,
+            0.10743839482497573,
+            0.08244037989434305,
+            0.4112158084885537,
+            0.0008628642146234196,
+            -0.3499970129484129,
+            -0.8473454696763337,
+            0.0,
+            -0.06322435936048863
+          ],
+          "intercept": -0.8510934673937438,
+          "error95": 2.345581442385806,
+          "elapsed_range": [
+            10.88118361111111,
+            11.861441944444444
+          ]
+        }
+      },
+      "playbook": [
+        {
+          "title": "Offer optional coffee or tea and water",
+          "time": "21:30",
+          "evidence": "Coffee or tea requests peak at 22:00: 50% of answered check-ins, n=8 participants (4 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.5,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Invite a short break",
+          "time": "21:30",
+          "evidence": "A short break requests peak at 22:00: 38% of answered check-ins, n=8 participants (3 requesters).",
+          "reason": "Schedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.",
+          "effect_size": 0.375,
+          "source": "Demand by hour"
+        },
+        {
+          "title": "Offer a rest check-in",
+          "time": "22:00",
+          "evidence": "Lowest centered energy: +0.00 points relative to personal mean, n=8 participants; 95% mean CI [0.00, 0.00].",
+          "reason": "This suggests a low-energy window; it does not establish that a break changes performance.",
+          "effect_size": 0.0,
+          "source": "Energy Clock"
+        }
+      ],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\n## 21:30 - Offer optional coffee or tea and water\n\nCoffee or tea requests peak at 22:00: 50% of answered check-ins, n=8 participants (4 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 21:30 - Invite a short break\n\nA short break requests peak at 22:00: 38% of answered check-ins, n=8 participants (3 requesters).\n\nSchedule 30 minutes before the observed request peak; this is a planning heuristic, not a tested intervention.\n\n## 22:00 - Offer a rest check-in\n\nLowest centered energy: +0.00 points relative to personal mean, n=8 participants; 95% mean CI [0.00, 0.00].\n\nThis suggests a low-energy window; it does not establish that a break changes performance.\n\n",
+      "timeline": [
+        {
+          "time": "2026-11-08T03:00:00+00:00",
+          "source": "Check-ins",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T04:00:00+00:00",
+          "source": "Check-ins",
+          "count": 8,
+          "n": 8
+        },
+        {
+          "time": "2026-11-08T03:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T04:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": 11,
+          "n": 11
+        }
+      ],
+      "scatter": [
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 1270.0,
+          "n": 3
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 703.0,
+          "n": 3
+        },
+        {
+          "energy": 1.0,
+          "reaction_avg_ms": 272.0,
+          "n": 3
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 376.0,
+          "n": 3
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 485.0,
+          "n": 3
+        },
+        {
+          "energy": 3.0,
+          "reaction_avg_ms": 319.0,
+          "n": 3
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 420.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 303.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 296.0,
+          "n": 4
+        },
+        {
+          "energy": 4.0,
+          "reaction_avg_ms": 617.0,
+          "n": 4
+        }
+      ],
+      "participant_lines": [
+        {
+          "participant_id": "P07",
+          "hours_since_start": 11.370625555555556,
+          "energy": 1.0
+        },
+        {
+          "participant_id": "P01",
+          "hours_since_start": 11.409231666666665,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P09",
+          "hours_since_start": 11.442753333333332,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P02",
+          "hours_since_start": 11.511752777777778,
+          "energy": 3.0
+        },
+        {
+          "participant_id": "P05",
+          "hours_since_start": 11.602485277777777,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P11",
+          "hours_since_start": 11.748629166666667,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P04",
+          "hours_since_start": 11.792732777777779,
+          "energy": 2.0
+        },
+        {
+          "participant_id": "P10",
+          "hours_since_start": 11.861441944444444,
+          "energy": 2.0
+        }
+      ]
+    },
+    "station|Late night (00-03)": {
+      "counts": {
+        "participants": 3,
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": 0.3
+      },
+      "clock": {
+        "raw": [
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "centered": [
+          {
+            "group": 2,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "crash": null
+      },
+      "elapsed": [
+        {
+          "group": 15.0,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        }
+      ],
+      "focus": [
+        {
+          "group": 2,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        }
+      ],
+      "stuck": [
+        {
+          "group": 2,
+          "n": "n < 3",
+          "rows": null,
+          "mean": null,
+          "low": null,
+          "high": null
+        }
+      ],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [
+          {
+            "group": 1,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "time_by_energy": [
+          {
+            "group": 1,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 3,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ]
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [
+            {
+              "group": "3-6 hours ago",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ],
+          "break_last_hour": [
+            {
+              "group": "No",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ],
+          "caffeine_bucket": [
+            {
+              "group": "3+",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ],
+          "sleep_bucket": [
+            {
+              "group": "7+",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ]
+        },
+        "demand": [
+          {
+            "hour": 2,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 2,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          }
+        ]
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [
+        {
+          "time": "2026-11-08T08:00:00+00:00",
+          "source": "Check-ins",
+          "count": null,
+          "n": "n < 3"
+        },
+        {
+          "time": "2026-11-08T09:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": null,
+          "n": "n < 3"
+        }
+      ],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "station|Dawn (04-07)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "station|Morning (08-12)": {
+      "counts": {
+        "participants": 5,
+        "checkins": 3,
+        "game_sessions": 4,
+        "paired_sessions": "n < 3",
+        "hours_covered": 0.1
+      },
+      "clock": {
+        "raw": [
+          {
+            "group": 9,
+            "n": 3,
+            "rows": 3,
+            "mean": 4.333333333333333,
+            "low": 4.0,
+            "high": 5.0
+          }
+        ],
+        "centered": [
+          {
+            "group": 9,
+            "n": 3,
+            "rows": 3,
+            "mean": 0.0,
+            "low": 0.0,
+            "high": 0.0
+          }
+        ],
+        "crash": {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0,
+          "hour": 9,
+          "hour_ci": [
+            9,
+            9
+          ],
+          "bootstrap_hour_share": {
+            "9": 1.0
+          }
+        }
+      },
+      "elapsed": [
+        {
+          "group": 22.0,
+          "n": 3,
+          "rows": 3,
+          "mean": 4.333333333333333,
+          "low": 4.0,
+          "high": 5.0
+        }
+      ],
+      "focus": [
+        {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 3.6666666666666665,
+          "low": 2.0,
+          "high": 5.0
+        }
+      ],
+      "stuck": [
+        {
+          "group": 9,
+          "n": 3,
+          "rows": 3,
+          "mean": 0.0,
+          "low": 0.0,
+          "high": 0.0
+        }
+      ],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": 4,
+            "rows": 4,
+            "rho": 0.4472135954999579,
+            "low": -1.0,
+            "high": 1.0
+          },
+          {
+            "metric": "false_starts",
+            "n": 4,
+            "rows": 4,
+            "rho": -0.5773502691896257,
+            "low": -1.0,
+            "high": -0.3333333333333333
+          },
+          {
+            "metric": "abs_time_error",
+            "n": 4,
+            "rows": 4,
+            "rho": 0.0,
+            "low": -1.0,
+            "high": 1.0
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": 4,
+          "overconfident": 0.5,
+          "underconfident": 0.5,
+          "over_ci": [
+            0.0,
+            1.0
+          ],
+          "under_ci": [
+            0.0,
+            1.0
+          ],
+          "histogram": [
+            {
+              "bin": "< -1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "-1.5 to -0.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "-0.5 to 0.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "0.5 to 1.5",
+              "count": null,
+              "n": "n < 3"
+            },
+            {
+              "bin": "> 1.5",
+              "count": null,
+              "n": "n < 3"
+            }
+          ]
+        },
+        "reaction_by_energy": [
+          {
+            "group": 3,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 4,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "time_by_energy": [
+          {
+            "group": 3,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "group": 4,
+            "n": "n < 3",
+            "rows": null,
+            "mean": null,
+            "low": null,
+            "high": null
+          }
+        ]
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [
+            {
+              "group": "6+ hours ago",
+              "n": 3,
+              "rows": 3,
+              "mean": 4.333333333333333,
+              "low": 4.0,
+              "high": 5.0
+            }
+          ],
+          "break_last_hour": [
+            {
+              "group": "No",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "Yes",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ],
+          "caffeine_bucket": [
+            {
+              "group": "0",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "1-2",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ],
+          "sleep_bucket": [
+            {
+              "group": "<5",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            },
+            {
+              "group": "5-7",
+              "n": "n < 3",
+              "rows": null,
+              "mean": null,
+              "low": null,
+              "high": null
+            }
+          ]
+        },
+        "demand": [
+          {
+            "hour": 9,
+            "option": "Food",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Coffee or tea",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Water",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "A short break",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "A quiet space",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Mentor help",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Sleep",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          },
+          {
+            "hour": 9,
+            "option": "Nothing",
+            "share": null,
+            "n": "n < 3",
+            "requesters": "n < 3"
+          }
+        ]
+      },
+      "model": {
+        "n": 3,
+        "rows": 3,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [
+        {
+          "title": "Offer a rest check-in",
+          "time": "09:00",
+          "evidence": "Lowest centered energy: +0.00 points relative to personal mean, n=3 participants; 95% mean CI [0.00, 0.00].",
+          "reason": "This suggests a low-energy window; it does not establish that a break changes performance.",
+          "effect_size": 0.0,
+          "source": "Energy Clock"
+        }
+      ],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\n## 09:00 - Offer a rest check-in\n\nLowest centered energy: +0.00 points relative to personal mean, n=3 participants; 95% mean CI [0.00, 0.00].\n\nThis suggests a low-energy window; it does not establish that a break changes performance.\n\n",
+      "timeline": [
+        {
+          "time": "2026-11-08T15:00:00+00:00",
+          "source": "Check-ins",
+          "count": 3,
+          "n": 3
+        },
+        {
+          "time": "2026-11-08T14:00:00+00:00",
+          "source": "Fatigue Lab",
+          "count": 4,
+          "n": 4
+        }
+      ],
+      "scatter": [],
+      "participant_lines": [
+        {
+          "participant_id": "P18",
+          "hours_since_start": 22.00546638888889,
+          "energy": 5.0
+        },
+        {
+          "participant_id": "P17",
+          "hours_since_start": 22.01321972222222,
+          "energy": 4.0
+        },
+        {
+          "participant_id": "P16",
+          "hours_since_start": 22.0224225,
+          "energy": 4.0
+        }
+      ]
+    },
+    "station|Afternoon (13-17)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "roving|All collected hours": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "roving|Evening (18-23)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "roving|Late night (00-03)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "roving|Dawn (04-07)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "roving|Morning (08-12)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    },
+    "roving|Afternoon (13-17)": {
+      "counts": {
+        "participants": "n < 3",
+        "checkins": "n < 3",
+        "game_sessions": "n < 3",
+        "paired_sessions": "n < 3",
+        "hours_covered": "n < 3"
+      },
+      "clock": {
+        "raw": [],
+        "centered": [],
+        "crash": null
+      },
+      "elapsed": [],
+      "focus": [],
+      "stuck": [],
+      "awareness": {
+        "correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "paired_correlations": [
+          {
+            "metric": "reaction_avg_ms",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "false_starts",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          },
+          {
+            "metric": "abs_time_error",
+            "n": "n < 3",
+            "rows": null,
+            "rho": null,
+            "low": null,
+            "high": null
+          }
+        ],
+        "gap": {
+          "n": "n < 3",
+          "overconfident": null,
+          "underconfident": null,
+          "over_ci": [
+            null,
+            null
+          ],
+          "under_ci": [
+            null,
+            null
+          ],
+          "histogram": []
+        },
+        "reaction_by_energy": [],
+        "time_by_energy": []
+      },
+      "helps": {
+        "associations": {
+          "last_ate": [],
+          "break_last_hour": [],
+          "caffeine_bucket": [],
+          "sleep_bucket": []
+        },
+        "demand": []
+      },
+      "model": {
+        "n": "n < 3",
+        "rows": null,
+        "status": "Insufficient complete data for participant-held-out evaluation.",
+        "mae": null,
+        "baseline_mae": null,
+        "beats_baseline": false,
+        "coefficients": [],
+        "association_status": "Insufficient complete data.",
+        "predictor": null
+      },
+      "playbook": [],
+      "schedule": "# Energy Clock organizer schedule\n\nChicago local time. Associations, not causes.\n\nInsufficient data for recommendations.\n",
+      "timeline": [],
+      "scatter": [],
+      "participant_lines": []
+    }
+  },
+  "quality": [
+    {
+      "source": "checkins",
+      "reason": "rows_in",
+      "count": 21
+    },
+    {
+      "source": "checkins",
+      "reason": "no_consent",
+      "count": 0
+    },
+    {
+      "source": "games",
+      "reason": "rows_in",
+      "count": 21
+    },
+    {
+      "source": "games",
+      "reason": "no_consent",
+      "count": 2
+    },
+    {
+      "source": "games",
+      "reason": "invalid_session_id",
+      "count": 0
+    },
+    {
+      "source": "games",
+      "reason": "duplicate_session",
+      "count": 0
+    },
+    {
+      "source": "checkins",
+      "reason": "invalid_energy",
+      "count": 0
+    },
+    {
+      "source": "checkins",
+      "reason": "invalid_focus",
+      "count": 0
+    },
+    {
+      "source": "checkins",
+      "reason": "invalid_slept_h",
+      "count": 0
+    },
+    {
+      "source": "checkins",
+      "reason": "invalid_caffeine_today",
+      "count": 0
+    },
+    {
+      "source": "checkins",
+      "reason": "missing_time_or_energy",
+      "count": 0
+    },
+    {
+      "source": "checkins",
+      "reason": "rows_out",
+      "count": 21
+    },
+    {
+      "source": "games",
+      "reason": "invalid_energy",
+      "count": 0
+    },
+    {
+      "source": "games",
+      "reason": "invalid_reaction_avg_ms",
+      "count": 0
+    },
+    {
+      "source": "games",
+      "reason": "invalid_reaction_best_ms",
+      "count": 0
+    },
+    {
+      "source": "games",
+      "reason": "invalid_reaction_slowest_ms",
+      "count": 2
+    },
+    {
+      "source": "games",
+      "reason": "invalid_false_starts",
+      "count": 0
+    },
+    {
+      "source": "games",
+      "reason": "invalid_time_estimate_s",
+      "count": 1
+    },
+    {
+      "source": "games",
+      "reason": "missing_time_or_energy",
+      "count": 0
+    },
+    {
+      "source": "games",
+      "reason": "rows_out",
+      "count": 19
+    }
+  ],
+  "observations": []
+}

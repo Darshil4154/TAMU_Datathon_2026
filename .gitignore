@@ -1,1 +1,16 @@
 .agent_board_*.json
+
+# Energy Clock private & environment ignores
+byod_energy_clock/data/raw/*
+byod_energy_clock/data/private/*
+byod_energy_clock/data/*.xlsx
+byod_energy_clock/*.xlsx
+byod_energy_clock/.venv/
+byod_energy_clock/.python/
+byod_energy_clock/.cache/
+byod_energy_clock/__pycache__/
+byod_energy_clock/.pytest_cache/
+byod_energy_clock/tests/fixtures/FAKE_output/
+byod_energy_clock/tests/fixtures/FAKE_temp/
+byod_energy_clock/*.pyc
+*.pyc

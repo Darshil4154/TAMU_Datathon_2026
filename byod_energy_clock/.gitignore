@@ -1,0 +1,12 @@
+/data/raw/*
+/data/private/*
+/data/*.xlsx
+*.xlsx
+/.venv/
+/.python/
+/.cache/
+__pycache__/
+.pytest_cache/
+/tests/fixtures/FAKE_output/
+/tests/fixtures/FAKE_temp/
+*.pyc
